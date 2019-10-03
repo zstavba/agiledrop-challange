@@ -1,0 +1,6 @@
+name: 'Time Display Module'
+type: module
+description: 'Simple jQuery Time Display module'
+package: Development
+core: 8.x
+configure: time_display.form
