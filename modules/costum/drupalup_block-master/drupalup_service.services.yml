@@ -1,4 +1,4 @@
 services:
     drupalup_service.time:
-        class: Drupal\drupalup_service\TimeService
+        class: Drupal\drupalup_block\TimeService
         arguments: ['@current_time']
