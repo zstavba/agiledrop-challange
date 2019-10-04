@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'ajkqF2PSZ7s61l30_p3K82MZgS3gkwZMoqO37ohzjWqNjZnqjh4zIr2rcj7gZGBWn-LaHw0b-A';
+$settings['hash_salt'] = '3Vb5V1rE_l0EQSGwQERSu_RSZxs-rtQIEA2Vgj0lJ8lZKDbV-j5e--nQlqKH7RqZ9WDo9ZIwdQ';
 
 /**
  * Deployment identifier.
@@ -778,7 +778,7 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'agiledrop',
+  'database' => 'agiledrop_novo',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
@@ -787,4 +787,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$config_directories['sync'] = 'sites/default/files/config_CxfHtPzQDYx2e3SByRSfGjkHIh8Pr4-ejBa3Gl8QuoBEt5sjLrBi1BaeKD0UQ0bApe4C2TRDgA/sync';
+$config_directories['sync'] = 'sites/default/files/config_CLhqkAue8z7ThuFCG656NMl_5aOttPb1QguXvKmh5-Stbj9GJbIG8YDmBQEq6TNzYPnWZHZgOg/sync';
